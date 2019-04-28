@@ -1,0 +1,449 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>IFC: Free Film Fest</title>
+<META NAME="DESCRIPTION" CONTENT="The Official Web Page for The Independent Film Channel.">
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script language="JavaScript1.2" type="text/javascript" src="http://ifc.com/static/js/global.js"></script>
+<script language="JavaScript1.2" type="text/javascript" src="http://ifc.com/static/js/topnav.js"></script>
+<script type="text/javascript" src="http://ifc.com/static/js/sifr.js"></script>
+<script type="text/javascript" src="http://ifc.com/static/js/swfobject.js"></script>
+<script language="JavaScript1.2" type="text/javascript" src="freefilmfest.js"></script>	
+<link rel="stylesheet" href="freefilmfest.css">
+<link rel="stylesheet" href="http://ifc.com/static/css/ifc.css">
+<link rel="stylesheet" href="http://ifc.com/static/css/sIFR-screen.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="http://ifc.com/static/css/sIFR-print.css" type="text/css" media="print" />
+<script language="javascript">
+function popupWindow(theURL,winName,features){//v2.0
+            window.open(theURL,winName,features)
+        }
+</script>
+</head>
+<body style="background: #000000; background-image: url('http://ifc.com/static/img/bg/bg_red.jpg'); background-repeat: repeat-x;">
+
+<div align="center">
+<!-- header -->
+<div style="width:976px; height:91px; background-image: url('/static/img/header/header_bg_red.gif');">
+<table width="976" border="0" cellpadding="0" cellspacing="0">
+
+	<tr>
+		<td width="584"><img src="/static/img/px.gif" alt="" width="584" height="68" border="0" usemap="#logo">
+		<map name="logo"><area shape="rect" coords="413,2,567,67" href="/"></map></td>
+		<td width="130"><img src="/static/img/px.gif" width="130" height="1" alt=""></td>
+		<!-- newsletter sign-up -->
+		<td valign="bottom"><a href="http://ifc.bside.com/?_view=_community&tab=emailPrefs"><img src="/static/img/header/btn_newsletter_signup_red.gif" width="227" height="24" alt="Sign up for the IFC Newsletter" style="margin-bottom:5px;"></a></td>
+		<!-- / newsletter sign-up -->
+	</tr>
+	<!-- header links -->
+
+	<tr>
+		<td>
+			<table border="0" cellpadding="2" cellspacing="0">
+				<tr>
+					<td width="32" style="width:32px; height:23px;"><br></td>
+					<td class="header_txt" id="header-loginLinks">
+					<!--YOUR CHANNEL: 81
+					<span class="header_vr">|</span>-->
+					<a href="http://ifc.bside.com/?_view=_login" class="header_txt">LOG IN</a>
+
+					<span class="header_vr">|</span>
+					<a href="http://ifc.bside.com/?_view=_register" class="header_txt">REGISTER</a>
+					</td>
+					<!--<td valign="top"><a href="http://"><img src="/static/img/header/btn_download_audio_red.gif" width="105" height="14" alt="Download Audio" style="margin-left:10px;"></a></td>-->
+				</tr>
+			</table>
+			<script type="text/javascript" src="http://ifc.bside.com/userstatus.jsp"></script>
+
+		</td>
+		<td colspan="2">
+			<table border="0" cellpadding="2" cellspacing="0">
+				<tr>
+					<td valign="top"><img src="/static/img/px.gif" width="112" height="15" alt=""><!--<a href="http://"><img src="/static/img/header/btn_add_rss_red.gif" width="112" height="15" alt="Add RSS Headlines"></a>--></td>
+					<!-- search -->
+					<form action="/searchresult" method="GET">
+					<td valign="top"><img src="/static/img/header/search_red.gif" width="77" height="15" alt="Search IFC" style="margin-left:16px;"></td>
+					<td><input type="text" id="field_search" value="" name="searchWord" size="10"></td>
+
+					<td><input type="image" src="/static/img/header/btn_go_red.gif" width="19" height="19" value="GO" style="margin-left:2px;"></td>
+					</form>
+					<!-- / search -->
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<!-- / header links -->
+</table>
+
+</div>
+<!-- / header -->
+<!-- topnav -->
+<table width="976" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="4"><img src="http://ifc.com/static/img/top_nav/lft_red.gif" width="4" height="33" alt=""></td>
+
+		<td width="966" valign="top" style="background-image: url('http://ifc.com/static/img/top_nav/topnav_bg.jpg');">
+			<table width="966" border="0" cellpadding="0" cellspacing="0">
+			<script language="JavaScript1.2" type="text/javascript" src="http://ifc.com/static/js/topnavLoad.js"></script>
+				<tr>
+					<td width="122"><a href="http://ifc.bside.com/schedule/"><img src="http://ifc.com/static/img/top_nav/schedule.gif" width="122" height="30" alt="Schedule"></a></td> 
+					<td width="85"><a href="http://ifc.com/series" onmouseover='show("series",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/series.gif" width="85" height="30" alt="Series"></a></td> 
+					<td width="81"><a href="http://ifc.com/films" onmouseover='show("films",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/films.gif" width="81" height="30" alt="Films"></a></td>
+					<td width="94" align="right"><a href="http://ifc.com/news" onmouseover='show("news",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/news.gif" width="76" height="30" alt="News"></a></td>
+					<td width="195"><img src="http://ifc.com/static/img/top_nav/clip_btm_red.jpg" width="166" height="33" alt="" style="margin-left: 23px"></td>
+
+					<td width="114"><a href="http://ifc.bside.com/?_view=community" onmouseover='show("community",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/community.gif" width="114" height="30" alt="Community"></a></td>
+					<td width="119"><a href="http://medialab.ifc.com/"><img src="http://ifc.com/static/img/top_nav/short_films.gif" width="119" height="30" alt="Short Films"></a></td>
+					<td width="84"><a href="http://store.ifc.com" onmouseover='show("store",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/store.gif" width="84" height="30" alt="Store"></a></td>
+					<td width="72"><a href="http://ifc.com/video" onmouseover='show("video",event);' onMouseOut="startHide2();"><img src="http://ifc.com/static/img/top_nav/video.gif" width="72" height="30" alt="Video"></a></td>
+				</tr>
+			</table>
+		</td>
+		<td width="6"><img src="http://ifc.com/static/img/top_nav/rt_red.gif" width="6" height="33" alt=""></td>
+	</tr>
+
+</table>
+<!-- / topnav -->
+
+<!-- top row content -->
+<div style="width: 976px">
+<div style="background-image: url(http://ifc.com/static/img/bg/goldbox2.jpg); background-position: bottom left;">
+<table width="976" border="0" cellpadding="0" cellspacing="0" style="background-image: url(http://ifc.com/static/img/bg/goldbox2_filler.jpg); background-position: bottom right; background-repeat: no-repeat">
+
+	<tr valign="top">
+		<td width="6"><img src="http://ifc.com/static/img/bg/goldbox1_lft.jpg" width="6" height="990" alt=""><br><img src="http://ifc.com/static/img/bg/goldbox_lft_trans.jpg"></td>
+		<!-- Article -->
+		<td width="759">
+			<div><img src="http://ifc.com/static/img/bg/goldbox2_wooden_top.jpg" width="759" height="18" alt=""></div>
+
+			<div class="main_blob_lrg" style="padding: 0px 0px 0px 0px;">
+				<!-- gunslinger main movie -->
+				<div id="gawm_swf" style="padding: 0px 0px 10px 0px;">
+<div id="fffContainer">
+<div id="fffTop"><img src="images/fff_logo.gif" border="0" usemap="#Map3" style="position:absolute;left:0px"/><div id="flashHeader"></div>
+</div>
+<div id="fffLeftNav">
+			<img src="images/left_nav.gif" width="172" height="189" border="0" usemap="#Map" /><img src="images/left_nav_ads.jpg" width="172" height="312" border="0" usemap="#Map2" />
+</div>
+<div id="fffRightContent">
+<div id="fffHeader"></div>
+<div id="textbox"></div>
+<div id="quotes"></div>
+<div id="touts"></div>
+<script type="text/javascript">
+		// <![CDATA[
+		var so = new SWFObject("header.swf", "header", "560", "202", "8", "#ffffff");
+		so.addParam("wmode","transparent");
+		so.write("flashHeader");
+				
+		var so = new SWFObject("hero.swf", "hero", "560", "273", "8", "#ffffff");
+		so.addParam("wmode","transparent");
+		so.write("textbox");
+		
+		var so = new SWFObject("quotes.swf", "quotes", "560", "60", "8", "#ffffff");
+		so.write("quotes");		
+
+		var so = new SWFObject("touts.swf", "touts", "560", "163", "8", "");
+		so.write("touts");		
+		// ]]>
+</script>
+</div>
+</div>
+</div>
+<map name="Map3" id="Map3"><area shape="rect" coords="32,179,76,196" href="http://ifc.com" />
+<area shape="rect" coords="86,179,166,199" href="http://www.comcast.net" target="_blank" />
+<area shape="rect" coords="7,5,171,167" href="javascript:fffShow('home')" />
+</map>
+<map name="Map2" id="Map2"><area shape="rect" coords="16,5,168,197" href="javascript:fffShow('fffTour')" />
+<area shape="rect" coords="12,210,169,294" href="http://australia.com" target="_blank" />
+</map>
+<map name="Map" id="Map">
+<area shape="rect" coords="11,44,169,61" href="javascript:fffShow('fffAbout')" />
+<area shape="rect" coords="11,64,169,82" href="javascript:fffShow('fffTour')" />
+<area shape="rect" coords="11,84,169,103" href="javascript:fffShow('raising')" />
+<area shape="rect" coords="11,105,169,125" href="http://community.ifc.com/category.jspa?categoryID=47" />
+<area shape="rect" coords="11,126,169,147" href="javascript:fffShow('fffPress')" />
+<area shape="rect" coords="11,147,169,169" href="javascript:fffShow('fffKids')" />
+<area shape="rect" coords="11,169,169,189" href="javascript:fffShow('fffVideo')" />
+<area shape="rect" coords="53,4,170,30" href="javascript:send_email('invite')" /></map> 
+<div id="fffAbout">
+<p>
+Come have a fun summer evening out with IFC - and we'll treat you to a great
+indie film! The IFC Free Film Fest is coming this summer to 10 cities across
+the US: Philadelphia, Atlanta, Miami, Memphis, Denver, San Francisco,
+Seattle, Detroit, Boston and Washington DC.  The tour kicks off July 10 in
+Comcast's hometown of Philadelphia.  The tour will take place for three
+consecutive days in each city, with a different film each night, open to the
+public at no cost.
+</p><p>
+Join us for uncut screenings of these three films - the Coen Brothers cult
+hit, "Raising Arizona"; the family-friendly fairy tale classic "The Princess
+Bride"; as well as the unconventionally humorous "Napoleon Dynamite".  All
+films will be shown on a 40' x 20' inflatable air screen constructed
+specifically by IFC for the tour - a state-of-the-art outdoor video system.
+The films will begin at dusk, following a variety of pre-show activities,
+including musical entertainment.
+</p><p>
+Each venue will also have activities on site, including: 
+</p><p>
+The IFC Media Lab Lounge, presented by Scion - Free and open to the public,
+the IFC Media Lab Lounge is an on-site venue showcasing short films from top
+local filmmakers who have submitted shorts to IFC's online user-generated
+program at <a href="http://medialab.ifc.com/content.jsp?pg=film_free_fest.html">www.ifc.com/medialab</a>.  Event-goers who visit the Lounge can enter
+to win a new HD camera. 
+</p><p>
+The Comcastic Test Drive - Attendees will be able to get a first-hand look
+at the integrated Comcastic experience, including Comcast's Triple Play of
+digital cable, digital voice and high-speed Internet services. 
+</p>
+</div>
+<div id="fffTour">
+<p>
+This section will start after first week of the tour.  Thank you IFC
+</p>
+</div>
+<div id="raising">
+<div class="h1"><a href="javascript:fffShow('raising')"><b>&nbsp;raising arizona&nbsp;</b></a></div><div class="h1 middlePadding"><a href="javascript:fffShow('princess')">&nbsp;the princess bride&nbsp;</a></div><div class="h1"><a href="javascript:fffShow('napolean')">&nbsp;napoleon dynamite&nbsp;</a></div><br clear="all" /><p>
+Combining influences from Tex Avery cartoons to Sam Raimi horror movies to 1940s B-movies, Joel Coen and Ethan Coen followed up the stylish film noir of their debut, Blood Simple (1984), with this frantic screwball comedy. H.I. "Hi" McDonnough (Nicholas Cage) is a philosophical but slightly dim career criminal who has been arrested so often that he gets to know "Ed," short for Edwina (Holly Hunter), the officer who takes his mug shots. Hi takes a shine to Ed and promises to go straight if she marries him. She accepts, and they move to the Arizona desert, where Hi holds down a factory job and blissfully watches the sunsets with Ed. The couple decides that they want a child and discover that, as Hi puts it, "Ed's womb was a rocky place where my seed could find no purchase." Ed goes into a severe depression until she sees an item in the news: Nathan Arizona (Trey Wilson), owner of a chain of unpainted furniture stores, has become the father of quintuplets, and he and his wife joke that they now have more children than they know what to do with. In what seems like a perfect "helps you, helps me" situation, Hi and Ed kidnap one of the Arizona infants, figuring that they'll have a baby and the Arizonas will have less of a burden.
+</p>
+</div>
+<div id="princess">
+<div class="h1"><a href="javascript:fffShow('raising')">&nbsp;raising arizona&nbsp;</a></div><div class="h1 middlePadding"><a href="javascript:fffShow('princess')"><b>&nbsp;the princess bride&nbsp;</b></a></div><div class="h1"><a href="javascript:fffShow('napolean')">&nbsp;napoleon dynamite&nbsp;</a></div><br clear="all" />
+<p>
+Based on William Goldman's novel of the same name, The Princess Bride is staged as a book read by grandfather (Peter Falk) to his ill grandson (Fred Savage). Falk's character assures a romance-weary Savage that the book has much more to deliver than a simpering love story, including but not limited to fencing, fighting, torture, death, true love, giants, and pirates. Indeed, The Princess Bride offers a tongue-in-cheek fairy tale depicting stable boy-turned-pirate Westley's journey to rescue Buttercup (Robin Wright), his true love, away from the evil prince (Chris Sarandon), whom she had agreed to marry five years after learning of what she had believed to be news of Westley's death. With help from Prince Humperdinck's disgruntled former employee Miracle Max (Billy Crystal), swordsman Inigo Montoya (Mandy Patinkin), and a very large man named Fezzik (Andre the Giant), the star-crossed lovers are reunited.
+</p>
+</div>
+<div id="napolean">
+<div class="h1"><a href="javascript:fffShow('raising')">&nbsp;raising arizona&nbsp;</a></div><div class="h1 middlePadding"><a href="javascript:fffShow('princess')">&nbsp;the princess bride&nbsp;</a></div><div class="h1"><a href="javascript:fffShow('napolean')"><b>&nbsp;napoleon dynamite&nbsp;</b></a></div><br clear="all" />
+<p>
+The directorial debut of filmmaker Jared Hess, who also co-wrote the
+screenplay, Napoleon Dynamite is a quirky, offbeat comedy set in the small
+Idaho town of Preston. Jon Heder stars in the titular role, a carrot-topped
+oddball with a decidedly eccentric family that includes his llama-loving,
+dune-buggy enthusiast grandmother. The story centers on the local high
+school's race for class president. Using some nontraditional means, Napoleon
+is determined to help his pal Pedro (Efrem Ramirez) run a winning campaign
+and defeat popular girl Summer (Haylie Duff). Also starring The Drew Carey
+Show's Diedrich Bader, Napoleon Dynamite premiered at the 2004 Sundance Film
+Festival.</p>
+</div>
+<div id="fffPress">
+<p>
+Members of the press - please visit our press resource center for more information.
+</p><p> 
+<a href="http://press.ifc.com/press.rainbow-media.com/view/index.do" target="_blank">Click here</a>
+</p>
+</div>
+<div id="fffKids">
+<p>
+The IFC Free Film Fest is proud to be partnering with Kid Flicks, a non-profit organization that donates children's videos to hospitals. We will be collecting DVDs (appropriate for children or teens) at each event to be donated to a local children's hospital. If you cannot attend our events, but would still like to send DVDs to be donated, please log on to <a href="http://www.kidflicks.org" target="_blank">www.kidflicks.org</a>
+</p><p>
+ABOUT KID FLICKS:<br />
+Marni and Berni Barta founded Kids Flicks in 2002, collecting new and used videos and DVD's to donate to Pediatrics departments of various hospitals. The teenaged sisters came up with the idea for Kids Flicks when they were doing some "spring cleaning" and realized they had a large number of children's videos that they had either outgrown or no longer watched. They had a young friend who had been treated for Leukemia and they knew that when she was in the hospital she spent many hours watching movies to help distract her and pass the time, so they donated their videos to the Pediatric Oncology Center where their friend was treated. 
+</p><p>
+Their donation was met with such enthusiam by hospital staff (they were
+told that movies are the "first thing kids ask for when they are in the
+hospital"), that they decided to collect as many videos and DVD's as
+they could so that they could donate them to the Pediatrics departments
+of other hospitals. 
+</p><p>
+They began writing solicitation letters to family, friends, and movie
+studios asking them for movie donations. They also conduct annual
+collection drives at their former elementary and nursery school, their
+middle and high schools, at their religious school and through their
+Pediatrician's office. The sisters spend many hours per week receiving
+or picking up donations, working to sort the movies, and drive to the
+hospitals where they donate the movies. As the donations get further
+away, the sisters arrange to ship the movies instead. 
+</p><p>
+As of June 2007, Kid Flicks has donated 23,300 movies to 233 different hospitals throughout the United States. 
+</p>
+</div>
+<div id="fffVideo">
+<p>
+Check back in July to see our weekly video updates from the IFC Free Film Fest.
+</p>
+</div></div>	
+				</div>
+<!----------------------------------->
+
+<div style="width: 759px;">
+<div style="padding: 3px 13px 0pt 10px;">
+<div style="border: 5px solid rgb(193, 179, 114); background: rgb(63, 55, 49) url(http://ifc.com/static/img/series/gawm/bg.jpg) repeat-y scroll 0%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">
+<div style="padding: 6px;">
+<table class="regtext" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr valign="top">
+<!-- column 1 -->
+<td style="padding-right: 7px;" valign="middle">
+<!-- ad spot -->
+<div style="padding-left: 37px;">
+<div style="width: 300px; height: 250px; border: 5px solid rgb(57, 52, 33);"><!-- begin ad tag -->
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/rainbow.ifc/freefilmfest;sz=300x250;ord=[timestamp]?" type="text/javascript"></script>
+<noscript><a href="http://ad.doubleclick.net/jump/rainbow.ifc/freefilmfest;sz=300x250;ord=[timestamp]?" target="_blank"><img src="http://ad.doubleclick.net/ad/rainbow.ifc/freefilmfest;sz=300x250;ord=[timestamp]?" width="300" height="250" border="0" alt=""></a></noscript>
+<!-- End ad tag --></div>
+</div>
+<!-- / ad spot -->
+
+</td>
+<!-- / column 1 -->
+<!-- column 2 -->
+
+<td>
+
+<!-- blob - also check out -->
+<div id="check_it_out">
+<div><img src="http://ifc.com/static/img/featured/blobs/bg_top.gif" alt="" height="8" width="313"></div><div style="background-image: url(http://ifc.com/static/img/featured/blobs/bg.jpg);"><div style="padding: 0pt 10px;"><img src="http://ifc.com/static/img/featured/blobs/also_check_out/also_check_out.gif" alt="Also Check Out" height="20" width="169">
+</div>
+<div style="padding: 8px 2px 10px 3px;">
+<div>
+  
+
+</div>
+<div id="checkout_swf" style="width: 306px; background-image: url(http://ifc.com/static/img/featured/blobs/also_check_out/bg.gif); background-repeat: repeat-y;" align="center">
+<embed type="application/x-shockwave-flash" src="http://ifc.com/static/swf/checkout/checkout.swf" id="checkout_obj" name="checkout_obj" bgcolor="#1a0707" quality="high" wmode="transparent" flashvars="xmlfile=http://ifc.com/static/swf/checkout/content_series.xml&amp;imgdir=http://ifc.com/static/img/thumbs/&amp;cssfile=http://ifc.com/static/css/flash.css" height="242" width="299">
+</div><div><img src="http://ifc.com/static/img/featured/blobs/also_check_out/bg_btm.gif" alt="" height="1" width="306"></div></div></div><div></div>
+</div>
+<!-- / blob - also check out -->
+</td>
+<!-- / column 2 -->
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div>
+  
+
+</div>
+</div>
+<!----------------------------------->
+		</td>
+		<!-- / Article -->
+		<td width="1"><img src="http://ifc.com/static/img/bg/goldbox1_sp2.jpg" alt="" height="500" width="1"></td>
+		
+		<td width="203" style="background-image: url(http://ifc.com/static/img/series/henry_2/bg_right.jpg)">
+			<div><img src="http://ifc.com/static/img/bg/checklist_top.jpg" width="203" height="12" alt=""></div>
+			<div id="goldbox1_col3">
+				<div style="padding: 10px 15px 0 15px">
+					<img src="http://ifc.com/static/img/featured/blobs/be_blt.gif" width="17" height="18" alt="" style="margin-right: 2px" align="top">
+					<img src="http://ifc.bside.com/img/schedule/community.gif" width="100" height="20" alt="Community">
+				</div>
+				<div id="section_nav">
+					<script type="text/javascript">
+            			// <![CDATA[
+           				var videoPlayer = new FlashObject("http://ifc.bside.com/swf/section_nav/section_nav.swf", "section_nav_obj", "195", "185", 7, "#1D0000");
+            			videoPlayer.addParam("wmode", "transparent");
+            			videoPlayer.addVariable("xmlfile", "http://ifc.bside.com/swf/section_nav/links_community.xml");
+            			videoPlayer.addVariable("sub", "home");
+            			videoPlayer.write("section_nav");
+            			// ]]>
+        			</script>
+				</div>
+			</div>
+			
+			<!-- skyscraper ad -->
+
+			<div style="padding-top: 5px;">
+				<div><img src="http://ifc.com/static/img/bg/main_ad_top.gif" width="203" height="7" alt=""></div>
+				<div align="center" style="padding: 3px 0; background-image: url(http://ifc.com/static/img/bg/main_ad.jpg)">
+				<div class="beige_box_3" style="width: 160px; height: 600px;"><!-- begin ad tag -->
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/rainbow.ifc/freefilmfest;sz=160x600;ord=[timestamp]?" type="text/javascript"></script>
+<noscript><a href="http://ad.doubleclick.net/jump/rainbow.ifc/freefilmfest;sz=160x600;ord=[timestamp]?" target="_blank"><img src="http://ad.doubleclick.net/ad/rainbow.ifc/freefilmfest;sz=160x600;ord=[timestamp]?" width="160" height="600" border="0" alt=""></a></noscript>
+<!-- End ad tag --></div>
+				</div>
+				<div><img src="http://ifc.com/static/img/bg/main_ad_btm.gif" width="203" height="7" alt=""></div></div><!-- / skyscraper ad --></td>
+		
+		<td width="7"><img src="http://ifc.com/static/img/bg/goldbox1_rt.jpg" width="6" height="1088" alt=""></td>
+	</tr>
+</table>
+</div>
+<div><img src="http://www.ifc.com/static/img/bg/goldbox2_btm.jpg" width="976" height="50" alt="" usemap="#partners">
+
+<map name="partners">
+<area shape="rect" coords="183,6,233,44" href="http://amctv.com/" target="_blank" alt="AMC">
+<area shape="rect" coords="241,5,279,43" href="http://fuse.tv" target="_blank" alt="fuse">
+<area shape="rect" coords="282,6,339,44" href="http://ifctv.com" target="_blank" alt="IFC TV">
+<area shape="rect" coords="346,5,414,44" href="http://www.ifccenter.com" target="_blank" alt="IFC Center">
+<area shape="rect" coords="423,6,515,44" href="http://ifcfilms.com/" target="_blank" alt="IFC Films">
+<area shape="rect" coords="529,4,619,46" href="http://www.lifeskooltv.com/" target="_blank" alt="Lifeskool">
+<area shape="rect" coords="626,5,720,45" href="http://sportskool.com" target="_blank" alt="sportskool">
+<area shape="rect" coords="733,7,789,47" href="http://we.tv" target="_blank" alt="WE">
+</map>
+</div>
+</div>
+<!-- / top row content -->
+
+<!-- 728 ad --> 
+<div style="margin:20px;">
+<!-- begin ad tag -->
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/rainbow.ifc/freefilmfest;sz=728x90;ord=[timestamp]?" type="text/javascript"></script>
+<noscript><a href="http://ad.doubleclick.net/jump/rainbow.ifc/freefilmfest;sz=728x90;ord=[timestamp]?" target="_blank"><img src="http://ad.doubleclick.net/ad/rainbow.ifc/freefilmfest;sz=728x90;ord=[timestamp]?" width="728" height="90" border="0" alt=""></a></noscript>
+<!-- End ad tag -->
+</div><br>
+<!-- / 728 ad -->
+
+<!-- footer links --> 
+<div class="footer">
+<a href="http://ifc.com/bottomnav?aId=17975" class="footer">About IFC</a> &nbsp;|&nbsp;  <a href="http://ifc.com/bottomnav?aId=17988" class="footer">Contact Us</a>  &nbsp;|&nbsp;  <a href="http://ifc.com/bottomnav?aId=17994" class="footer">Site Map</a>  &nbsp;|&nbsp; <!-- <a href="#" class="footer">What's New</a>  &nbsp;|&nbsp; --> <a href="http://ifc.bside.com/?_view=_community&tab=emailPrefs" class="footer">Subscribe/Unsubscribe</a>  &nbsp;|&nbsp;  <a href="http://ifc.com/bottomnav?aId=17998" class="footer">Privacy Policy</a>  &nbsp;|&nbsp;  <a href="http://ifc.com/bottomnav?aId=17999" class="footer">Terms &amp; Conditions</a>  &nbsp;|&nbsp;  <a href="http://ifc.com/bottomnav?aId=18000" class="footer">FAQ</a><br>
+
+(c) 2007 The Independent Film Channel LLC. 
+</div><br>
+<!-- / footer links -->
+
+</div>
+
+<!-- begin ad tag -->
+<a href="http://ad.doubleclick.net/jump/rainbow.ifc/;kw=adid_108101391;sz=1x1;ord=12345?" target="_blank">
+<img src="http://ad.doubleclick.net/ad/rainbow.ifc/;kw=adid_108101391;sz=1x1;ord=12345?" width="1" height="1" border="0" alt=""></a>
+<!-- End ad tag -->
+
+<script type="text/javascript">
+//<![CDATA[
+if(typeof sIFR == "function"){
+	sIFR.replaceElement("h1", named({sFlashSrc: "http://ifc.com/static/swf/sirf/akzidenz.swf", sColor: "#DFCCA4", sWmode: "transparent"}));
+};
+//]]>
+</script>
+<script language="javascript" src="http://icompass.insightexpressai.com/515.js"></script>
+
+<div style="display: none;">
+<!-- SiteCatalyst code version: H.3.
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<script language="JavaScript" src="//www.ifc.com/ifc/s_code.js"></script>
+<script language="JavaScript"><!-- 
+s.pageName="ifc:community:freefilmfest:home"
+s.server="media"
+s.channel="community"
+s.pageType=""
+s.prop1="freefilmfest"
+s.prop2=""
+s.prop3=""
+s.prop4=""
+s.prop5=""
+s.hier1="ifc,community,freefilmfest,home"
+/* E-commerce Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events=""
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.3. -->
+</div>
+
+</body>
+
+</html>
